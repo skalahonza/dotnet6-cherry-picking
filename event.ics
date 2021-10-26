@@ -1,0 +1,109 @@
+BEGIN:VCALENDAR
+PRODID:-//Microsoft Corporation//Outlook 16.0 MIMEDIR//EN
+VERSION:2.0
+METHOD:REQUEST
+X-MS-OLK-FORCEINSPECTOROPEN:TRUE
+BEGIN:VTIMEZONE
+TZID:Central Europe Standard Time
+BEGIN:STANDARD
+DTSTART:16011028T030000
+RRULE:FREQ=YEARLY;BYDAY=-1SU;BYMONTH=10
+TZOFFSETFROM:+0200
+TZOFFSETTO:+0100
+END:STANDARD
+BEGIN:DAYLIGHT
+DTSTART:16010325T020000
+RRULE:FREQ=YEARLY;BYDAY=-1SU;BYMONTH=3
+TZOFFSETFROM:+0100
+TZOFFSETTO:+0200
+END:DAYLIGHT
+END:VTIMEZONE
+BEGIN:VEVENT
+ATTENDEE;CN="Jan Skala";RSVP=TRUE:invalid:nomail
+ATTENDEE;CN=janrajnoha;RSVP=TRUE:invalid:nomail
+ATTENDEE;CN=j.skala;ROLE=OPT-PARTICIPANT;RSVP=TRUE:invalid:nomail
+CLASS:PUBLIC
+CREATED:20211026T160509Z
+DESCRIPTION:\n\n\n________________________________________\nOd: Jan Skala <
+	Jan.Skala@studentambassadors.com>\nOdesláno: pondělí 25. října 2021 1
+	4:22:30 (UTC+01:00) Belgrade\, Bratislava\, Budapest\, Ljubljana\, Prague\
+	nKomu: janrajnoha\nPředmět: .NET 6.0 cherry-picking\nKdy: středa 27. ř
+	íjna 2021 18:00-19:00.\nKde:\n\nHave you heard about .NET 6? Probably yes
+	\, but there is so much content which is hard to tackle. This session will
+	 show a cherry pick of some .NET 6 features. It should help you discover n
+	ew or improve existing solutions to your day-to-day challenges in .NET. It
+	 will also you help you decide if you are considering starting your next p
+	roject in .NET.\n\nEvent repository: https://github.com/skalahonza/dotnet6
+	-cherry-picking\n\n_______________________________________________________
+	_________________________\nSchůzka Microsoft Teams\nPřipojit se přes po
+	čítač nebo mobilní aplikaci\nKliknutím sem se připojíte ke schůzce
+	.<https://teams.microsoft.com/l/meetup-join/19%3ameeting_ZDczMjc0YmItM2Y3Z
+	C00MWMzLWIyMWEtMmQ3MDk2ZjE4ODdi%40thread.v2/0?context=%7b%22Tid%22%3a%2284
+	c31ca0-ac3b-4eae-ad11-519d80233e6f%22%2c%22Oid%22%3a%22ffeb2b25-3886-41e9-
+	9244-3ca62e65bb20%22%7d>\nDalší informace<https://aka.ms/JoinTeamsMeetin
+	g> | Možnosti schůzky<https://teams.microsoft.com/meetingOptions/?organi
+	zerId=ffeb2b25-3886-41e9-9244-3ca62e65bb20&tenantId=84c31ca0-ac3b-4eae-ad1
+	1-519d80233e6f&threadId=19_meeting_ZDczMjc0YmItM2Y3ZC00MWMzLWIyMWEtMmQ3MDk
+	2ZjE4ODdi@thread.v2&messageId=0&language=cs-CZ>\n_________________________
+	_______________________________________________________\n
+DTEND;TZID="Central Europe Standard Time":20211027T190000
+DTSTAMP:20211025T132340Z
+DTSTART;TZID="Central Europe Standard Time":20211027T180000
+LAST-MODIFIED:20211026T160509Z
+ORGANIZER;CN="Jan Skala":mailto:Jan.Skala@studentambassadors.com
+PRIORITY:5
+SEQUENCE:0
+SUMMARY:FW: .NET 6.0 cherry-picking
+TRANSP:OPAQUE
+UID:040000008200E00074C5B7101A82E00800000000C4FE44FA9AC9D701000000000000000
+	010000000BBB72178F997124DB532F58E79BE2271
+X-ALT-DESC;FMTTYPE=text/html:<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 3.2//E
+	N">\n<HTML>\n<HEAD>\n<META NAME="Generator" CONTENT="MS Exchange Server ve
+	rsion 16.0.14430.20292">\n<TITLE></TITLE>\n</HEAD>\n<BODY>\n<!-- Converted
+	 from text/plain format -->\n<BR>\n<BR>\n<BR>\n\n<P><FONT SIZE=2>_________
+	_______________________________</FONT>\n\n<BR><FONT SIZE=2>Od: Jan Skala &
+	lt\;Jan.Skala@studentambassadors.com&gt\;</FONT>\n\n<BR>Odesláno: ponděl
+	í 25. října 2021 14:22:30 (UTC+01:00) Belgrade\, Bratislava\, Budapest\
+	, Ljubljana\, Prague\n\n<BR><FONT SIZE=2>Komu: janrajnoha</FONT>\n\n<BR>P
+	ředmět: .NET 6.0 cherry-picking\n\n<BR>Kdy: středa 27. října 2021 18:
+	00-19:00.\n\n<BR><FONT SIZE=2>Kde:</FONT>\n</P>\n\n<P><FONT SIZE=2>Have yo
+	u heard about .NET 6? Probably yes\, but there is so much content which is
+	 hard to tackle. This session will show a cherry pick of some .NET 6 featu
+	res. It should help you discover new or improve existing solutions to your
+	 day-to-day challenges in .NET. It will also you help you decide if you ar
+	e considering starting your next project in .NET.</FONT></P>\n\n<P><FONT S
+	IZE=2>Event repository: <A HREF="https://github.com/skalahonza/dotnet6-che
+	rry-picking">https://github.com/skalahonza/dotnet6-cherry-picking</A></FON
+	T>\n</P>\n\n<P><FONT SIZE=2>______________________________________________
+	__________________________________</FONT>\n\n<BR>Schůzka Microsoft Teams\
+	n\n<BR>Připojit se přes počítač nebo mobilní aplikaci\n\n<BR>Kliknut
+	ím sem se připojíte ke schůzce.&lt\;<A HREF="https://teams.microsoft.c
+	om/l/meetup-join/19%3ameeting_ZDczMjc0YmItM2Y3ZC00MWMzLWIyMWEtMmQ3MDk2ZjE4
+	ODdi%40thread.v2/0?context=%7b%22Tid%22%3a%2284c31ca0-ac3b-4eae-ad11-519d8
+	0233e6f%22%2c%22Oid%22%3a%22ffeb2b25-3886-41e9-9244-3ca62e65bb20%22%7d">ht
+	tps://teams.microsoft.com/l/meetup-join/19%3ameeting_ZDczMjc0YmItM2Y3ZC00M
+	WMzLWIyMWEtMmQ3MDk2ZjE4ODdi%40thread.v2/0?context=%7b%22Tid%22%3a%2284c31c
+	a0-ac3b-4eae-ad11-519d80233e6f%22%2c%22Oid%22%3a%22ffeb2b25-3886-41e9-9244
+	-3ca62e65bb20%22%7d</A>&gt\;</P>\n\n<P>Další informace&lt\;<A HREF="http
+	s://aka.ms/JoinTeamsMeeting">https://aka.ms/JoinTeamsMeeting</A>&gt\; | Mo
+	žnosti schůzky&lt\;<A HREF="https://teams.microsoft.com/meetingOptions/?
+	organizerId=ffeb2b25-3886-41e9-9244-3ca62e65bb20&tenantId=84c31ca0-ac3b-4e
+	ae-ad11-519d80233e6f&threadId=19_meeting_ZDczMjc0YmItM2Y3ZC00MWMzLWIyMWEtM
+	mQ3MDk2ZjE4ODdi@thread.v2&messageId=0&language=cs-CZ">https://teams.micros
+	oft.com/meetingOptions/?organizerId=ffeb2b25-3886-41e9-9244-3ca62e65bb20&t
+	enantId=84c31ca0-ac3b-4eae-ad11-519d80233e6f&threadId=19_meeting_ZDczMjc0Y
+	mItM2Y3ZC00MWMzLWIyMWEtMmQ3MDk2ZjE4ODdi@thread.v2&messageId=0&language=cs-
+	CZ</A>&gt\;</P>\n\n<P><FONT SIZE=2>_______________________________________
+	_________________________________________</FONT>\n</P>\n\n</BODY>\n</HTML>
+X-MICROSOFT-CDO-BUSYSTATUS:BUSY
+X-MICROSOFT-CDO-IMPORTANCE:1
+X-MICROSOFT-CDO-INTENDEDSTATUS:BUSY
+X-MICROSOFT-DISALLOW-COUNTER:FALSE
+X-MS-OLK-SENDER;CN="Jan Skala":mailto:Jan.Skala@studentambassadors.com
+BEGIN:VALARM
+TRIGGER:-PT15M
+ACTION:DISPLAY
+DESCRIPTION:Reminder
+END:VALARM
+END:VEVENT
+END:VCALENDAR
