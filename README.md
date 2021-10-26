@@ -19,9 +19,9 @@ Join on Teams <img src="https://docs.microsoft.com/cs-cz/media/logos/logo_MSTeam
 * Attributes support generics
 
 ### New LINQ features
+* Three way zipping
 * Chunk (batchify)
 * TryGetNonEnumeratedCount
-* Three way zipping
 * By(s)
     * MinBy
     * MaxBy
