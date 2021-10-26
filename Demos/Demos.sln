@@ -13,6 +13,8 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SlowAPI", "SlowAPI\SlowAPI.
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Demo4", "Demo4\Demo4.csproj", "{65E43568-857C-44CD-86AE-F0630A82D2C0}"
 EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Demo5", "Demo5\Demo5.csproj", "{4DAEA481-3A3D-42B0-9EE1-4CE8AC52B274}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -39,6 +41,10 @@ Global
 		{65E43568-857C-44CD-86AE-F0630A82D2C0}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{65E43568-857C-44CD-86AE-F0630A82D2C0}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{65E43568-857C-44CD-86AE-F0630A82D2C0}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4DAEA481-3A3D-42B0-9EE1-4CE8AC52B274}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4DAEA481-3A3D-42B0-9EE1-4CE8AC52B274}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4DAEA481-3A3D-42B0-9EE1-4CE8AC52B274}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4DAEA481-3A3D-42B0-9EE1-4CE8AC52B274}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
