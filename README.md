@@ -29,13 +29,13 @@ Join on Teams <img src="https://docs.microsoft.com/cs-cz/media/logos/logo_MSTeam
 * Slicing with take
 
 ### New APIs
-* Parallel for each async :hushed:
 * Periodic timer
-* Date / Time only! :relieved:
 * Wait async - best way to tackle looooong running tasks 
+* Parallel for each async :hushed:
 
 ### New cool way to create REST APIs
 * Minimalistic REST API
+* Date / Time only! :relieved:
 * Hot Reload
 * Swagger
 * Validation

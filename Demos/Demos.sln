@@ -7,6 +7,10 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Demo1", "Demo1\Demo1.csproj
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Demo2", "Demo2\Demo2.csproj", "{94BD673A-BABE-4237-A8F8-CFAEDE04F218}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Demo3", "Demo3\Demo3.csproj", "{2E1D03FE-FE48-4F7F-BA77-B719B48F8519}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SlowAPI", "SlowAPI\SlowAPI.csproj", "{DDBC686F-3915-4A24-8EDD-2D3285052ECC}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -21,6 +25,14 @@ Global
 		{94BD673A-BABE-4237-A8F8-CFAEDE04F218}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{94BD673A-BABE-4237-A8F8-CFAEDE04F218}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{94BD673A-BABE-4237-A8F8-CFAEDE04F218}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2E1D03FE-FE48-4F7F-BA77-B719B48F8519}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2E1D03FE-FE48-4F7F-BA77-B719B48F8519}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2E1D03FE-FE48-4F7F-BA77-B719B48F8519}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2E1D03FE-FE48-4F7F-BA77-B719B48F8519}.Release|Any CPU.Build.0 = Release|Any CPU
+		{DDBC686F-3915-4A24-8EDD-2D3285052ECC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DDBC686F-3915-4A24-8EDD-2D3285052ECC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DDBC686F-3915-4A24-8EDD-2D3285052ECC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DDBC686F-3915-4A24-8EDD-2D3285052ECC}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
