@@ -14,6 +14,7 @@ Join on Teams <img src="https://docs.microsoft.com/cs-cz/media/logos/logo_MSTeam
 * Global using statements
 * Constant string interpolation
 * Better type inference for functions
+* Extended property patterns (nesting)
 * Record structs
 * Attributes support generics
 
