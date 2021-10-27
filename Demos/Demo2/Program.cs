@@ -1,7 +1,9 @@
-﻿var names = new[] { "Alice", "Bob", "Cletus", "Daria", "Alice" };
-var surnames = new[] { "Doe", "Novak", "Nguyen", "Smith", "Smith" };
-var ages = new[] { 10, 20, 30, 40 };
+﻿using System.Diagnostics;
 
+var names = new[] { "Alice", "Bob", "Cletus", "Daria", "Alice" };
+var surnames = new[] { "Doe", "Novak", "Nguyen", "Smith", "Smith" };
+var ages = new[] { 10, 20, 30, 40, 50 };
+Debugger.Break();
 
 
 
@@ -43,7 +45,7 @@ var ages = new[] { 10, 20, 30, 40 };
 // 3 way zipping
 IEnumerable<(string Name, string Surname, int Age)> zipped = names.Zip(surnames, ages);
 var persons = zipped.Select(x => new Person(x.Name, x.Surname, x.Age)).ToList();
-
+Debugger.Break();
 
 
 
@@ -80,6 +82,7 @@ var persons = zipped.Select(x => new Person(x.Name, x.Surname, x.Age)).ToList();
 
 // Chunk
 var batches = persons.Chunk(2);
+Debugger.Break();
 
 
 
@@ -116,7 +119,7 @@ var batches = persons.Chunk(2);
 // TryGetNonEnumeratedCount
 var numbers = Enumerable.Range(1, 100);
 var primes = numbers.Where(IsPrime);
-
+Debugger.Break();
 
 
 
@@ -154,8 +157,9 @@ var primes = numbers.Where(IsPrime);
 
 var count = numbers.Count();
 count = numbers.Count();
+Debugger.Break();
 
-if(numbers.TryGetNonEnumeratedCount(out count))
+if (numbers.TryGetNonEnumeratedCount(out count))
 {
     Console.WriteLine(count);
 }
@@ -223,7 +227,7 @@ else
 
 
 
-
+Debugger.Break();
 // By
 // max age
 var maxAge = persons.Max(x => x.Age);
@@ -277,7 +281,7 @@ var page = persons.Skip(2).Take(2).ToList();
 
 // it is easier now
 var page2 = persons.Take(2..4).ToList();
-Console.ReadKey();
+Debugger.Break();
 
 
 
