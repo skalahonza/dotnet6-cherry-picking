@@ -1,9 +1,10 @@
-﻿
-// DEMO 1
+﻿// DEMO 1
 
 // file scoped namespaces --> StringExtensions
 
 // global using statements
+using Demo1;
+
 Console.WriteLine("Hello, World!");
 Console.WriteLine("Hello, World!".Asteriskify());
 
@@ -76,6 +77,46 @@ var hello = () => "Hello";
 var isNull = false;
 Func<string?> hello2 = () => isNull ? null : "Hello";
 // var hello3 = () => null;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+// better patern matching
+var inner = new Circle(50);
+var outer = new Circle(10, inner);
+
+
+// inner circle check
+if(outer is { Inner.Radius: > 10 })
+{
+    // inner radius greater than 10
+}
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
